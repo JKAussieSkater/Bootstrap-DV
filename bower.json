@@ -1,0 +1,6 @@
+{
+  "name": "Bootstrap-DV",
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
