@@ -1,7 +1,7 @@
-[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png" align="right">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png)
 # Bootstrap-DV
-
 Bootstrap Dependency Validator - Tells you which components aren't configured properly on your HTML page
+
+[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png)
 
 ## Synopsis
 
