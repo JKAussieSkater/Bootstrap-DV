@@ -9,7 +9,11 @@ module.exports = function (grunt) {
         //Retrieve project's metadata
         pkg: grunt.file.readJSON('package.json'),
 
-        mybanner: '-------------------------------------\n         <%= pkg.name %>\nCopyright © <%= pkg.author.name %>  2015-<%= grunt.template.today("yyyy") %>\n-------------------------------------\n     Version: <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>)',
+        mybanner:   '-------------------------------------\n' +
+                    '         <%= pkg.name %>\n' +
+                    'Copyright © <%= pkg.author.name %>  2015-<%= grunt.template.today("yyyy") %>\n' +
+                    '-------------------------------------\n' +
+                    '     Version: <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>)',
 
         // Copy Bootstrap dependencies to `test/` folder
         copy: {
@@ -38,7 +42,7 @@ module.exports = function (grunt) {
         cssmin: {
             css: {
                 options: {
-                    //banner: '/*\n<%= mybanner %>\n*/',
+                    //banner: '/*\n<%= mybanner %>\n*/\n',
                     sourceMap: false
                 },
                 files: [{
@@ -53,7 +57,7 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 options: {
-                    //banner: '/*\n<%= mybanner %>\n*/',
+                    //banner: '/*\n<%= mybanner %>\n*/\n',
                     preserveComments: false,
                     sourceMap: false
                 },
