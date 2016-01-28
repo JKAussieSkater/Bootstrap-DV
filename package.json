@@ -1,6 +1,6 @@
 {
   "name": "Bootstrap-DV",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Bootstrap Dependency Validator - Tells you which components aren't configured properly on your HTML page",
   "homepage": "https://github.com/JKAussieSkater/Bootstrap-DV/blob/master/README.md",
   "repository": "https://github.com/JKAussieSkater/Bootstrap-DV",
