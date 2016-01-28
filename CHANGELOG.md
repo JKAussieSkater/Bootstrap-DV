@@ -11,7 +11,7 @@
 ## Changelog
 
 #### [2016-01-29] v1.1.0
-* Upgraded Bootstrap CSS validator algorith
+* Upgraded Bootstrap CSS validator algorithm
   * Utilises Bootstrap's unique line-height 1.429 ratio (20/14)
 * More compatible with most customised Bootstrap themes
 
