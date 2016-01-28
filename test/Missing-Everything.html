@@ -170,7 +170,7 @@
             }
 
             // Is computed line-height generated via Bootstrap's line-height ratio of 1.429 (or 20/14)
-            if (bodyLineHeight === Math.floor(1.428571429 * bodyFontSize.replace(/px/i, '')) + 'px') {
+            if (Math.floor(bodyLineHeight.replace(/px/i, '')) === Math.floor(1.428571429 * bodyFontSize.replace(/px/i, ''))) {
                 strSuccess = strSuccess + "<strong>Bootstrap CSS ✔</strong><br />";
             } else {
                 strFailure = strFailure + "<strong>Bootstrap CSS ✘</strong><br />";
