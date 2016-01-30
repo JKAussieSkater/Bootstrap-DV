@@ -1,3 +1,6 @@
+/*jslint evil: true, white: true */
+/*global $ */
+
             var strSuccess = "<strong>JavaScript ✔</strong><br />";
             var strFailure = "";
             var strInformation = "";
@@ -42,5 +45,5 @@
             document.getElementById("BDV-Information").innerHTML = strInformation;
 
             document.getElementById("BDV-Success").style.display = "block";
-            if (!strFailure == "") {document.getElementById("BDV-Failure").style.display = "block"; }
-            if (!strInformation == "") {document.getElementById("BDV-Information").style.display = "block"; }
+            if (strFailure !== "") {document.getElementById("BDV-Failure").style.display = "block"; }
+            if (strInformation !== "") {document.getElementById("BDV-Information").style.display = "block"; }
