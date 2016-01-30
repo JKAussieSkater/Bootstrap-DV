@@ -152,32 +152,44 @@ module.exports = function (grunt) {
             test: {
                 files: [{
                     'test/Bootstrap-Ready.html': [
+                        'test/_components/html-head.html',
                         'test/_components/Bootstrap-Ready.html',
+                        'test/_components/html-body.html',
                         'dist/Bootstrap-DV.html',
                         'test/_components/html-wrapper-end.html'
                     ],
                     'test/Missing-Bootstrap.html': [
+                        'test/_components/html-head.html',
                         'test/_components/Missing-Bootstrap.html',
+                        'test/_components/html-body.html',
                         'dist/Bootstrap-DV.html',
                         'test/_components/html-wrapper-end.html'
                     ],
                     'test/Missing-CSS.html': [
+                        'test/_components/html-head.html',
                         'test/_components/Missing-CSS.html',
+                        'test/_components/html-body.html',
                         'dist/Bootstrap-DV.html',
                         'test/_components/html-wrapper-end.html'
                     ],
                     'test/Missing-JS.html': [
+                        'test/_components/html-head.html',
                         'test/_components/Missing-JS.html',
+                        'test/_components/html-body.html',
                         'dist/Bootstrap-DV.html',
                         'test/_components/html-wrapper-end.html'
                     ],
                     'test/Missing-jQuery.html': [
+                        'test/_components/html-head.html',
                         'test/_components/Missing-jQuery.html',
+                        'test/_components/html-body.html',
                         'dist/Bootstrap-DV.html',
                         'test/_components/html-wrapper-end.html'
                     ],
                     'test/Missing-Everything.html': [
+                        'test/_components/html-head.html',
                         'test/_components/Missing-Everything.html',
+                        'test/_components/html-body.html',
                         'dist/Bootstrap-DV.html',
                         'test/_components/html-wrapper-end.html'
                     ]
