@@ -15,5 +15,5 @@
   * Utilises Bootstrap's unique line-height 1.429 ratio (20/14)
 * More compatible with most customised Bootstrap themes
 
-#### [2016-01-07] v1.0.0
+#### [2015-12-13] v1.0.0
 * Initial release.
