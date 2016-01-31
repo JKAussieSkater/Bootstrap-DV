@@ -203,6 +203,7 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['Compile-Bootstrap-DV', 'Assemble-Test']);
 
     grunt.registerTask('Compile-Bootstrap-DV', [
+        'Assemble-Banner',
         'cssmin',
         'uglify',
         'concat:min_div',
