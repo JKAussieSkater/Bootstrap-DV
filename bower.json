@@ -1,5 +1,5 @@
 {
-  "name": "Bootstrap-DV",
+  "name": "bootstrap-dv",
   "description": "Bootstrap Dependency Validator. Tells you which components aren't configured properly on your HTML page",
   "author": "JKAussieSkater",
   "repository": {
