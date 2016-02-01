@@ -1,0 +1,54 @@
+{
+  "name": "bootstrap-dv",
+  "version": "1.1.3",
+  "meta": {
+    "current_version": {
+      "date":  {
+        "full": "2016-02-02",
+        "year": "2016",
+        "month": "02",
+        "day": "02"
+      }
+    },
+    "initial_version": {
+      "date":  {
+        "full": "2015-12-13",
+        "year": "2015",
+        "month": "12",
+        "day": "13"
+      }
+    }
+  },
+  "description": "Bootstrap Dependency Validator. Tells you which components aren't configured properly on your HTML page",
+  "homepage": "https://github.com/JKAussieSkater/Bootstrap-DV/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JKAussieSkater/Bootstrap-DV.git"
+  },
+  "bugs": "https://github.com/JKAussieSkater/Bootstrap-DV/issues",
+  "license": "MIT",
+  "author": {
+    "name": "JKAussieSkater",
+    "email": "",
+    "url": ""
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "jquery",
+    "bootstrap",
+    "framework",
+    "dependency", "dependencies",
+    "validate", "validator",
+    "troubleshoot", "troubleshooter", "troubleshooting"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-minify-html": "^2.0.0"
+  }
+}

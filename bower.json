@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap-dv",
+  "description": "Bootstrap Dependency Validator. Tells you which components aren't configured properly on your HTML page",
+  "author": "JKAussieSkater",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JKAussieSkater/Bootstrap-DV.git"
+  },
+  "license": "MIT",
+  "main": [
+    "dist/Bootstrap-DV.html"
+  ],
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "jquery",
+    "bootstrap",
+    "framework",
+    "dependency", "dependencies",
+    "validate", "validator",
+    "troubleshoot", "troubleshooter", "troubleshooting"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.6"
+  },
+  "ignore": [
+    "/bower_components/",
+    "/docs/",
+    "/node_modules/",
+    "/src/",
+    "/test/_components/",
+    ".gitignore",
+    "Gruntfile.js"
+  ]
+}
