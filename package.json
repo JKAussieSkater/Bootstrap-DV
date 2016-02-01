@@ -1,13 +1,13 @@
 {
   "name": "Bootstrap-DV",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "meta": {
     "current_version": {
       "date":  {
-        "full": "2016-01-29",
+        "full": "2016-02-02",
         "year": "2016",
-        "month": "01",
-        "day": "29"
+        "month": "02",
+        "day": "02"
       }
     },
     "initial_version": {
