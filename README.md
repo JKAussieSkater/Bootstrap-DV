@@ -1,7 +1,7 @@
 # Bootstrap-DV
 Bootstrap Dependency Validator - Tells you which components aren't configured properly on your HTML page
 
-[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png)
+[![Graphic example of Bootstrap-DV showing yes JS, no jQuery, no CSS and potenially no Bootstrap JS](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png)](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/No-Components.png)
 
 ## Synopsis
 
@@ -18,25 +18,25 @@ It's important to realise that this code contains both CSS and JavaScript, and s
 Let's suppose you're a Bootstrap beginner, and you've created your first webpage using Bootstrap code. It doesn't look very appealing at all:
 
 ---
-[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/01-Unappealing-webpage.png">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/01-Unappealing-webpage.png)
+[![Webpage absent of layout and styling](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/01-Unappealing-webpage.png)](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/01-Unappealing-webpage.png)
 ---
 So you try to investigate by injecting the [Bootstrap-DV code](https://github.com/JKAussieSkater/Bootstrap-DV/blob/master/dist/Bootstrap-DV.html) into your webpage:
 
 ---
-[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/02-Inject-Code-Location.png" width="45%">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/02-Inject-Code-Location.png) [<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/03-Injected-Code.png" width="45%" align="right">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/03-Injected-Code.png)
+[<img alt="Graphic of webpage's source code being edited" src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/02-Inject-Code-Location.png" width="45%">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/02-Inject-Code-Location.png) [<img alt="Graphic showing where to inject Bootstrap-DV HTML code" src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/03-Injected-Code.png" width="45%" align="right">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/03-Injected-Code.png)
 ---
 
 You save the webpage, and launch it in the browser. This time, Bootstrap-DV will tell us why our webpage looks so ordinary:
 
 ---
-[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/04-Diagnosis.png">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/04-Diagnosis.png)
+[![Injected Bootstrap-DV shows identified CSS problem](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/04-Diagnosis.png)](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/04-Diagnosis.png)
 ---
 
 Ah ha! The red block of the "Bootstrap Dependency Validator" indicates that the Bootstrap CSS wasn't loaded by the webpage.
 Now you simply add the missing link into the `<head>` tag of your webpage, and reload the webpage:
 
 ---
-[<img src="https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/05-Repaired-Webpage.png">](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/05-Repaired-Webpage.png)
+[![Website corrected, Bootstrap-DV shows that Bootstrap is installed correctly](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/05-Repaired-Webpage.png)](https://raw.githubusercontent.com/JKAussieSkater/Bootstrap-DV/master/docs/image/05-Repaired-Webpage.png)
 ---
 
 That looks __much__ better! The "Bootstrap Dependency Validator" shows 4 green ticks, indicating that Bootstrap has been correctly installed on this webpage.
